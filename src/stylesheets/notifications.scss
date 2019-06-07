@@ -1,0 +1,18 @@
+#notifications_list_page {
+  #notifications_list {
+    list-style: none;
+    margin-top: 50px;
+    padding: 0;
+
+    li {
+      width: 90%;
+      display: flex;
+      margin: auto;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      box-shadow: 1px 1px 10px 1px #777;
+      padding: 10px;
+      cursor: pointer;
+    }
+  }
+}

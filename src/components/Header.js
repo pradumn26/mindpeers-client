@@ -24,7 +24,7 @@ class Header extends Component {
                             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                                 <ul className="navbar-nav mr-auto">
                                     <li className="nav-item">
-                                        <Link className="nav-link" to="/appointmentsToday">Today's Appointments</Link>
+                                        <Link className="nav-link" to="/todaysAppointments">Today's Appointments</Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link className="nav-link" to="/notifications">Notifications</Link>

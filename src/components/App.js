@@ -9,6 +9,7 @@ import DoctorsSignUp from './DoctorsSignup';
 import DoctorsList from './DoctorsList';
 import MyAppointments from './MyAppointments';
 import Notifications from './Notifications';
+import TodaysAppointments from './TodaysAppointments';
 import {fetchUser} from "../actions";
 
 class App extends Component{
@@ -26,6 +27,7 @@ class App extends Component{
                         <Route exact path='/notifications' component={Notifications}/>
 
                         <Route exact path='/doctorsSignUp' component={DoctorsSignUp}/>
+                        <Route exact path='/todaysAppointments' component={TodaysAppointments}/>
                     </div>
                 </BrowserRouter>
             </div>

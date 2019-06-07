@@ -1,0 +1,18 @@
+#appointments_list_page #appointments_list {
+  list-style: none;
+  margin-top: 50px;
+  padding: 0; }
+  #appointments_list_page #appointments_list li {
+    height: 100px;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 10px 1px #777; }
+    #appointments_list_page #appointments_list li img {
+      height: 100px;
+      width: 50px;
+      margin-right: 30px; }
+
+/*# sourceMappingURL=myappointments.css.map */
