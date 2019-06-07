@@ -1,0 +1,26 @@
+#doctors_list_page #doctors_list {
+  list-style: none;
+  margin-top: 50px;
+  padding: 0; }
+  #doctors_list_page #doctors_list li {
+    height: 80px;
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 10px 1px #777; }
+    #doctors_list_page #doctors_list li img {
+      height: 80px;
+      width: 50px;
+      margin-right: 30px; }
+    #doctors_list_page #doctors_list li div {
+      padding: 10px; }
+    #doctors_list_page #doctors_list li button {
+      margin-left: auto;
+      margin-right: 10px;
+      align-self: center;
+      background-color: #ff731d;
+      color: white; }
+
+/*# sourceMappingURL=doctorslist.css.map */

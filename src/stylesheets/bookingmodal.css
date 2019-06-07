@@ -1,0 +1,20 @@
+#booking_modal .modal-footer button {
+  background-color: #ff731d;
+  color: white; }
+#booking_modal .modal-body ul {
+  list-style: none; }
+  #booking_modal .modal-body ul li {
+    display: inline-block;
+    margin: 5px; }
+
+.booking_btn_red {
+  background-color: red;
+  color: white;
+  border: solid 1px red; }
+
+.booking_btn_green {
+  background-color: green;
+  color: white;
+  border: solid 1px green; }
+
+/*# sourceMappingURL=bookingmodal.css.map */

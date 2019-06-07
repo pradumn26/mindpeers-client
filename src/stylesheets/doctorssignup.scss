@@ -1,0 +1,52 @@
+#doctors_signup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100vw;
+
+  .error_span {
+    font-size: 12px;
+  }
+
+  #doc_signup_card {
+    height: 530px;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px 10px 1px #888;
+
+    h1 {
+      color: #93704e;
+      text-align: center;
+    }
+
+    form {
+      margin-top: 50px;
+
+      input {
+        border: none;
+        border-bottom: solid 1px #ff731d;
+        color: #ff731d;
+        width: 100%;
+        height: 50px;
+      }
+
+      button {
+        display: block;
+        margin-top: 10px;
+        width: 80%;
+        background-color: #ff731d;
+        border: 0;
+        color: white;
+        height: 40px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+
+      .login_button {
+        margin-top: 30px;
+      }
+    }
+  }
+}

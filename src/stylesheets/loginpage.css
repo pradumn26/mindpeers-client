@@ -1,0 +1,67 @@
+#login_page {
+  min-height: 100vh;
+  width: 100vw;
+  margin: 0;
+  align-items: center;
+  justify-content: space-around; }
+  #login_page .error_span {
+    font-size: 12px; }
+  #login_page #users_login {
+    height: 450px;
+    margin: 10px;
+    box-shadow: 1px 1px 10px 1px #888; }
+    #login_page #users_login h1 {
+      color: #93704e;
+      text-align: center; }
+    #login_page #users_login form {
+      margin-top: 80px; }
+      #login_page #users_login form input {
+        border: none;
+        border-bottom: solid 1px #ff731d;
+        color: #ff731d;
+        width: 100%;
+        height: 50px; }
+      #login_page #users_login form button {
+        display: block;
+        margin-top: 10px;
+        width: 80%;
+        background-color: #ff731d;
+        border: 0;
+        color: white;
+        height: 40px;
+        margin-right: auto;
+        margin-left: auto; }
+      #login_page #users_login form .login_button {
+        margin-top: 30px; }
+  #login_page #doctors_login {
+    height: 450px;
+    margin: 10px;
+    box-shadow: 1px 1px 10px 1px #888; }
+    #login_page #doctors_login h1 {
+      color: #93704e;
+      text-align: center; }
+    #login_page #doctors_login form {
+      margin-top: 80px; }
+      #login_page #doctors_login form input {
+        border: none;
+        border-bottom: solid 1px #ff731d;
+        color: #ff731d;
+        width: 100%;
+        height: 50px; }
+      #login_page #doctors_login form button {
+        display: block;
+        margin-top: 10px;
+        width: 80%;
+        background-color: #ff731d;
+        border: 0;
+        color: white;
+        height: 40px;
+        margin-right: auto;
+        margin-left: auto; }
+      #login_page #doctors_login form .login_button {
+        margin-top: 30px; }
+
+::placeholder {
+  color: #ff731d; }
+
+/*# sourceMappingURL=loginpage.css.map */
